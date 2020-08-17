@@ -1,0 +1,174 @@
+body{
+    font: 25px arial, helvetica, sans-serif ;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.boton1{
+    height: 38px;
+    background-color: #e8431e;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+
+/* encabezado */
+
+header{
+    background-color: #24282b;
+    color: white;
+    padding-top: 10px;
+    border-bottom: 5px solid #1293d4;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+header li {
+    display: inline-flex;
+    
+    padding: 75px 20px 0 20px;
+
+}
+
+header #marca {
+    float: left;
+    margin-top: 18px;
+
+}
+header.resaltado, header . actual a{
+    color: #1293d4;
+    font-weight: bold;
+
+
+}
+
+header a:hover{
+    color: #1293d4;
+    font-weight: bold;
+}
+/* cabecera con imagen */
+
+#cabecera {
+    min-height: 400px;
+    background: url("./assets/img/mecanico-automotriz.jpg");
+   
+    text-align: center;
+    color: white;
+
+}
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 70px;
+
+
+}
+#cabecera p{
+font-size: 28px;
+
+}
+
+/* formulario boletin */
+
+#boletin
+{
+    
+    padding:10px;
+    color:white;
+    background-color: #24282b;
+
+}
+#boletin h1{
+    float: left;
+
+}
+#boletin form{
+    float:right;
+    margin-top: 35px;
+
+}
+#boletin input[ type="email"]{
+    padding: 4px;
+    height:25px ;
+    width: 250px;
+}
+/* cajas */
+#cajas{
+    margin-top: 20px;
+    
+    
+    
+}
+.caja1{
+    width: 30%;
+    height: 30%;
+    
+    
+}
+.caja2{
+    width: 30%;
+    height: 30%;
+    
+}
+.caja3{
+    width: 30%;
+    height: 30%;
+    
+}
+
+#cajas .caja {
+    display: flex;
+    justify-content: center;
+
+}
+#cajas .caja img{
+    width: 150px;
+    justify-self: center;
+}
+/* pie de pagina */
+footer{
+ 
+    margin-top: 20px;
+    color: white;
+    background-color: #1293d4;
+    text-align: center;
+
+}
+/* leteral */
+aside #lateral{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+
+}
+.oscuro{
+    padding: 25px;
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+/* main-col */
+article.main-col{
+    float: left;
+width: 65%;
+}
