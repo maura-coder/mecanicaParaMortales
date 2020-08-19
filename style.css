@@ -6,10 +6,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .contenedor{
-    width:80%;
+    widows: 80px;
     margin: auto;
-    overflow: hidden;
+   
 }
 ul {
     margin: 0;
@@ -52,7 +53,7 @@ header #marca {
     margin-top: 18px;
 
 }
-header.resaltado, header . actual a{
+header.resaltado, header .actual a{
     color: #1293d4;
     font-weight: bold;
 
@@ -67,7 +68,7 @@ header a:hover{
 
 #cabecera {
     min-height: 400px;
-    background: url("./assets/img/mecanico-automotriz.jpg");
+    background: url("./assets/img/engrane.jpg");
    
     text-align: center;
     color: white;
@@ -142,15 +143,7 @@ font-size: 28px;
     width: 150px;
     justify-self: center;
 }
-/* pie de pagina */
-footer{
- 
-    margin-top: 20px;
-    color: white;
-    background-color: #1293d4;
-    text-align: center;
 
-}
 /* leteral */
 aside #lateral{
     float: right;
@@ -170,5 +163,36 @@ aside #lateral{
 /* main-col */
 article.main-col{
     float: left;
-width: 65%;
+width: 50%;
+}
+ul#servicios li{
+padding: 20px;
+border: 1px solid grey;
+margin-bottom: 5px;
+background-color: #e6e6e6;
+}
+/* formulario de contacto */
+input, textarea{
+    width: 60%;
+    height: 35px;
+    border: 1px solid gray;
+    margin-bottom:10px ;
+}
+textarea{
+    height: 120px;
+
+}
+input[ type="submit"]{
+    background-color: #e8491d;
+    color: white;
+}
+
+/* pie de pagina */
+footer{
+ 
+    margin-top: 20px;
+    color: white;
+    background-color: #1293d4;
+    text-align: center;
+
 }
